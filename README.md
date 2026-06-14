@@ -17,13 +17,18 @@
 seoul_subway_project/
 │
 ├── data/                 # 데이터 파일 모음
-│   ├── raw/              # 서울시 지하철 원본 데이터 (CSV)
+│   ├── raw/              # 서울시 지하철 원본 데이터
+│   │   └── 서울시 지하철 호선별 역별 시간대별 승하차 인원 정보.csv
+│   │
 │   └── processed/        # 전처리가 완료된 정제 데이터
+│       ├── subway_clean.csv
+│       ├── subway_with_transfer.csv
+│       └── team_B_week2_summary.xlsx
 │
-├── notebooks/            # 주피터 노트북 파일 (.ipynb)
+├── notebooks/            # 주피터 노트북 파일
 │   ├── Week1_data_processing.ipynb
 │   ├── Week2_advanced_data_analysis.ipynb
 │   └── Week3_visualization.ipynb
-|
+│
 └── reports/              # 최종 생산물
-    └── poster/          # 포스터
+    └── poster/           # 포스터
