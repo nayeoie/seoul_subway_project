@@ -21,6 +21,9 @@ seoul_subway_project/
 │   └── processed/        # 전처리가 완료된 정제 데이터
 │
 ├── notebooks/            # 주피터 노트북 파일 (.ipynb)
-│
-└── reports/              # 최종 생산물 및 보고서
-    └── figures/          # 분석 결과 시각화 이미지 모음
+│   ├── Week1_data_processing.ipynb
+│   ├── Week2_advanced_data_analysis.ipynb
+│   └── Week3_visualization.ipynb
+|
+└── reports/              # 최종 생산물
+    └── poster/          # 포스터
